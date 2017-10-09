@@ -1,4 +1,4 @@
-// Bumenpipei.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// Bumenpipei.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 #include "json.h"
 #include "stdafx.h"
@@ -8,7 +8,7 @@ vector <Student > st;
 vector <Department > dep;
 int main()
 {
-	ofstream outfile("data.txt");
+	
 	ifstream fcin;
 	ofstream fcout;
 	fcin.open(".\\input_data.txt");
